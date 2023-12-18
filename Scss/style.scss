@@ -9,15 +9,12 @@ $White-Colour: #fff;
   font-family: "Poppins", "sans-serif";
 }
 
-body {
+.first-body {
   height: 100vh;
-  background-color: rgb(228, 228, 228);
+  background-color: rgb(228, 226, 226);
   padding: auto;
 }
-// .main {
-//   position: relative;
-//   padding: 0 2rem;
-// }
+
 // NAV DESIGN
 .class-container {
   width: 100%;
@@ -154,3 +151,64 @@ body {
 }
 
 //SIGN UP PAGE DESIGNS
+
+.second {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(100deg, $Orange-Primary, #7e0d01);
+  background-size: 100% 20%;
+}
+.section {
+  height: 100vh;
+  position: relative;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  height: 50vh;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+
+  .social-container {
+    width: 36.25rem;
+    height: 52.875rem;
+    background-color: $White-Colour;
+
+    .Heading {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 3rem;
+      gap: 1.5rem;
+
+      h4 {
+        color: $Black;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 500;
+      }
+      
+      .paragraph-one {
+        color: #666;
+        font-family: Poppins;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+      }
+    }
+  }
+  .second-image {
+    width: 36.25rem;
+    height: 52.875rem;
+    flex-shrink: 0;
+  }
+}
