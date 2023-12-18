@@ -196,13 +196,33 @@ $White-Colour: #fff;
         font-size: 2rem;
         font-weight: 500;
       }
-      
+
       .paragraph-one {
         color: #666;
-        font-family: Poppins;
         font-size: 1rem;
-        font-style: normal;
         font-weight: 400;
+      }
+    }
+
+    .social-links-container {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 3rem;
+      gap: 1.5rem;
+      .social-links {
+        display: flex;
+        width: 25.125rem;
+        height: 4.5rem;
+        padding: 1.28125rem 3.5rem 1.21875rem 3.5rem;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2.5rem;
+        border: 1px solid #333;
+        background: #fff;
+        cursor: pointer;
       }
     }
   }
