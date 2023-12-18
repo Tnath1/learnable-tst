@@ -12,6 +12,7 @@ $White-Colour: #fff;
 body {
   height: 100vh;
   background-color: rgb(228, 228, 228);
+  padding: auto;
 }
 // .main {
 //   position: relative;
@@ -61,6 +62,7 @@ body {
     }
   }
   .login {
+    text-decoration: none;
     color: $Black;
     font-family: Poppins;
     font-size: 1.5rem;
@@ -75,16 +77,17 @@ body {
   }
 
   .btn {
-    width: 12.0625rem;
-    height: 4rem;
-    border-radius: 1.5625rem;
-    background: $Orange-Primary;
-    border: none;
-    color: $White-Colour;
+    padding: 1.5rem 3rem;
+    text-decoration: none;
+    background-color: $Orange-Primary;
+    color: #ffffff;
     font-size: 1.5rem;
-    font-weight: 500;
-    cursor: pointer;
+    border-radius: 1.57rem;
     transition: all 0.3s ease;
+    a {
+      color: $White-Colour;
+      text-decoration: none;
+    }
   }
   .btn:hover {
     transform: scale(0.9);
@@ -135,6 +138,11 @@ body {
       color: $White-Colour;
       font-size: 1.5rem;
       font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      transform: scale(0.9);
     }
   }
   .home-img {
@@ -144,3 +152,5 @@ body {
     margin-top: 5rem;
   }
 }
+
+//SIGN UP PAGE DESIGNS
