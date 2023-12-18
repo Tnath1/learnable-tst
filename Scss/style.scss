@@ -1,3 +1,6 @@
+$Orange-Primary: #e87a14;
+$Black: #000;
+$White-Colour: #fff;
 * {
   padding: 0;
   margin: 0;
@@ -10,19 +13,68 @@ body {
   height: 100vh;
   background-color: rgb(228, 228, 228);
 }
-.main {
-    position: relative;
-    padding: 0 2rem;
-}
+// .main {
+//   position: relative;
+//   padding: 0 2rem;
+// }
 
-.class-container{
+.class-container {
+  width: 100%;
+  height: 6rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    
-    li{
-        list-style-type: none;
-        a{
-            text-decoration: none;
-        }
+  .links {
+    display: flex;
+    gap: 2rem;
+  }
+  .btn-container {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+  }
+  .logo {
+    color: #000;
+    font-family: Poppins;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  li {
+    list-style-type: none;
+    a {
+      text-decoration: none;
+      color: $Black;
+      font-family: Poppins;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
     }
-   
+  }
+  .login {
+    color: $Black;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+  }
+
+  .btn {
+    width: 12.0625rem;
+    height: 4rem;
+    border-radius: 1.5625rem;
+    background: $Orange-Primary;
+    border: none;
+    color: $White-Colour;
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
 }
